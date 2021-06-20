@@ -5,6 +5,9 @@
  * Helpers Functions
  *
  */
+if (!defined('ABSPATH')) {
+	exit; // Exit if accessed directly.
+}
 
 /**
  * Custom logs to wp-content/debug.log

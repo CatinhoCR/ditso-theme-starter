@@ -13,6 +13,10 @@
  * @see https://developer.wordpress.org/reference/functions/register_post_type/
  */
 
+if (!defined('ABSPATH')) {
+	exit; // Exit if accessed directly.
+}
+
 if (!function_exists('fxm_register_cpt_books')) {
   function fxm_register_cpt_books()
   {

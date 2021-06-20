@@ -13,8 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $class_includes = [
-  'inc/classes/class-navigation-walker.php',
-// menus, sidebars, widgets, post types, taxonomies
+  // 'inc/classes/class-navigation-walker.php',
 ];
 
 foreach ($class_includes as $file) {

@@ -9,14 +9,26 @@
  * @since version 1.0.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+if (!defined('ABSPATH')) {
+  exit; // Exit if accessed directly.
 }
 
 $core_includes = [
+  //
+  // 'inc/core/template-parts.php',
+
+  //
+  'inc/core/template-tags.php',
+
+  //
+  'inc/core/template-functions.php',
+  // 'inc/core/_.php',
+  // 'inc/core/assets.php',
+  // 'inc/core/custom-post-type.php',
+  // 'inc/core/head.php',
+  // 'inc/core/taxonomies.php',
   'inc/core/sidebars.php',
-  'inc/core/theme-hooks.php'
-// menus, sidebars, widgets, post types, taxonomies
+  'inc/core/theme-hooks.php',
 ];
 
 foreach ($core_includes as $file) {

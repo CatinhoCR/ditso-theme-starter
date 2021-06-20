@@ -4,9 +4,11 @@
 * Custom Methods
 *
 */
+if (!defined('ABSPATH')) {
+	exit; // Exit if accessed directly.
+}
 
 $methods_includes = [
-  'inc/methods/template-functions.php',
   'inc/methods/conditional-tags.php',
   'inc/methods/sidebar-manager.php',
   // 'inc/methods/get_listing_articles.php',

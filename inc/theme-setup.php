@@ -70,6 +70,9 @@ if (!class_exists('Fxm_After_Setup_Theme')) {
 			add_action('after_setup_theme', array($this, 'setup_theme'), 2);
 			add_action('wp', array($this, 'setup_content_width'));
 
+			// @see moved to template-tags.php
+			// add_action( 'wp_body_open', array($this, 'fxm_skip_link'), 5 );
+
 			// Assets
 			add_action('wp_enqueue_scripts', array($this, 'fxm_enqueue_css'));
 			add_action('wp_enqueue_scripts', array($this, 'fxm_enqueue_js'));

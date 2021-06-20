@@ -10,6 +10,11 @@
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  * @todo @see wp-content/themes/astra/inc/widgets.php
  */
+
+if (!defined('ABSPATH')) {
+	exit; // Exit if accessed directly.
+}
+
 if (!function_exists('fxm_widgets_init')) {
 	function fxm_widgets_init()
 	{
