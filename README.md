@@ -11,3 +11,4 @@ This should be a super minimal version of the based from above. For easier usage
 - Update package.json
 - Update style.css
 - Update all base files
+- [Decisions, not Options](https://wordpress.org/about/philosophy/)

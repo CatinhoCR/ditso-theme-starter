@@ -1,3 +1,11 @@
+// Justify Content @todo helper classes
+// .justify-content-#{$}{
+
+// }
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
 // Font
 .font {
   &-bold {

@@ -26,6 +26,46 @@ if (!class_exists('Fxm_Customizer')) {
    */
   class Fxm_Customizer
   {
+    /**
+		 * Contexts.
+		 *
+		 * @access private
+		 * @var object
+		 */
+		// private static $contexts;
+
+		/**
+		 * Dynamic options.
+		 *
+		 * @since 3.1.0
+		 * @access private
+		 * @var object
+		 */
+		// private static $dynamic_options = array();
+
+    /**
+		 * Tabful sections.
+		 *
+		 * @access private
+		 * @var object
+		 */
+		// private static $tabbed_sections = array();
+
+		/**
+		 * Choices.
+		 *
+		 * @access private
+		 * @var object
+		 */
+		// private static $choices;
+
+    /**
+		 * JS Configs.
+		 *
+		 * @access private
+		 * @var object
+		 */
+		// private static $js_configs;
 
     /**
      * Instance
@@ -34,6 +74,24 @@ if (!class_exists('Fxm_Customizer')) {
      * @var object
      */
     private static $instance;
+
+    /**
+		 * Customizer Configurations.
+		 *
+		 * @access Private
+		 * @since 1.4.3
+		 * @var Array
+		 */
+		// private static $configuration;
+
+		/**
+		 * All groups parent-child relation array data.
+		 *
+		 * @access Public
+		 * @since 2.0.0
+		 * @var Array
+		 */
+		// public static $group_configs = array();
 
     /**
      * Initiator

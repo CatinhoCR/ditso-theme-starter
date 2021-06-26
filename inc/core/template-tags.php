@@ -25,3 +25,18 @@ if (!function_exists('fxm_skip_link')) {
   }
   add_action('wp_body_open', 'fxm_skip_link', 5);
 }
+
+if (!function_exists('fxm_custom_logo')) {
+  function fxm_custom_logo() {
+    if( has_custom_logo() ) {
+      // Get Custom Logo URL
+      $custom_logo_id = get_theme_mod( 'custom_logo' );
+      $custom_logo_data = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+      $custom_logo_url = $custom_logo_data[0];
+      return  $custom_logo_url;
+    } else {
+      return 'no';
+    }
+  }
+
+}

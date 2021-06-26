@@ -5,6 +5,7 @@
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
   }
 
+  // Modifier class for fixed variation
   &--sticky {
     position: fixed;
     top: 0;
@@ -13,9 +14,11 @@
     z-index: z('navigation');
   }
 
+  // Used to add container class styles
   &__inner {
     @include container(xl);
-    @include flex-children(center, space-between);
+    // @include flex-children(center, space-between);
+    // @include flex-children();
   }
 
   &__brand {
@@ -35,7 +38,7 @@
     display: none;
   }
 
-  &__menu {
+  &__nav {
     @include flex-children(center, flex-end);
     flex-grow: 2;
     position: relative;
@@ -80,9 +83,13 @@
       background-color: $warm-black;
       height: $toolbar-height;
       display: block;
+
+      a {
+        color: $white;
+      }
     }
 
-    &__menu {
+    &__nav {
       @include flex-children(center, flex-end);
       position: relative;
     }

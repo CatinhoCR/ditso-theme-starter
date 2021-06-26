@@ -33,7 +33,6 @@ if (!defined('ABSPATH')) {
 
   <?php fxm_header_before(); ?>
 
-  <?php // fxm_site_header(); ?>
 	<?php get_template_part('partials/blocks/header', 'nav'); ?>
 
   <?php fxm_header_after(); ?>
