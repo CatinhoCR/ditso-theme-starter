@@ -1,0 +1,58 @@
+@import 'variables/fonts';
+@import 'variables/colors';
+
+// Browser Context Sizing for unit/measurement
+$browser-context: 10px;
+$base-line-height: 1.5;
+$base-letter-spacing: 0;
+
+// Breakpoints
+$breakpoints: (
+  xs: 500px,
+  sm: 700px,
+  md: 960px,
+  lg: 1080px,
+  xl: 1280px,
+  xxl: 1400px
+);
+
+$xs: map-get($breakpoints, xs);
+$sm: map-get($breakpoints, sm);
+$md: map-get($breakpoints, md);
+$lg: map-get($breakpoints, lg);
+$xl: map-get($breakpoints, xl);
+$xxl: map-get($breakpoints, xxl);
+
+// Paddings
+$padding-side-mobile: 20px;
+$padding-side-tablet: 30px;
+$padding-side-desktop: 40px;
+
+// Container
+$grid-columns: 12;
+
+// Defined width
+$max-width-block-text: 668px;
+
+// Navigation Heights
+$toolbar-height: 35px;
+$nav-height-mobile: 80px;
+$nav-height-desktop: 110px;
+$nav-height-scrolled: 60px;
+$top-banner-height: 80px;
+$bottom-banner-height: 60px;
+
+// Miscellaneous measurements
+$circle-button-scale: 1.08;
+
+// Z-Indexes
+// Z-Indexes
+$z-layers: (
+  'notice-bars': 9999,
+  'navigation': 9998,
+  'search-nav': 9997,
+  'hamburger': 9996,
+  'overlay': 9995,
+  'footer': 9994,
+  'slider-nav': 9993
+);
