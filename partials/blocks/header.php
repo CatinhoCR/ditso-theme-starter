@@ -46,8 +46,7 @@ if (!defined('ABSPATH')) {
         $args = array(
           'theme_location' => 'primary',
           'container' => 'ul',
-          'menu_class' => 'header__nav',
-          // 'walker' => new FxM_Custom_Megamenu()
+          'menu_class' => 'header__nav'
         );
         wp_nav_menu($args);
         ?>

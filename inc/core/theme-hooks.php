@@ -16,7 +16,7 @@
  * Based on Theme Hook Alliance hook stub list
  * @see  https://github.com/zamoose/themehookalliance
  *
- * @package     FreshXMind
+ * @package Ditso
  * @author      Cato
  * @since       1.0.0
  */

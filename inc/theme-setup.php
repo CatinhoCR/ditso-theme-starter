@@ -1,7 +1,7 @@
 <?php
 
 /**
- * FreshXmind functions and definitions.
+ * Ditso functions and definitions.
  * Text Domain: fxm
  * When using a child theme (see https://codex.wordpress.org/Theme_Development
  * and https://codex.wordpress.org/Child_Themes), you can override certain
@@ -13,15 +13,10 @@
  * For more information on hooks, actions, and filters,
  * see https://codex.wordpress.org/Plugin_API
  *
- * FxM is a very powerful theme and virtually anything can be customized
+ * Ditso is a very powerful theme and virtually anything can be customized
  * via a child theme.
  *
- * @package     FreshXmind
- * @author      Cato
- * @copyright   Copyright (c) 2021, CATIX
- * @link        https://cato506.com/
- * @since       FreshXMind 1.0.0
- * @see @todo wp-content/themes/astra/inc/class-astra-after-setup-theme.php
+ * @package Ditso
  */
 
 if (!defined('ABSPATH')) {
@@ -29,16 +24,16 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Fxm_After_Setup_Theme initial setup
+ * FXM_After_Setup_Theme initial setup
  *
  * @since 1.0.0
  */
-if (!class_exists('Fxm_After_Setup_Theme')) {
+if (!class_exists('FXM_After_Setup_Theme')) {
 
 	/**
-	 * Fxm_After_Setup_Theme initial setup
+	 * FXM_After_Setup_Theme initial setup
 	 */
-	class Fxm_After_Setup_Theme
+	class FXM_After_Setup_Theme
 	{
 
 		/**
@@ -249,4 +244,4 @@ if (!class_exists('Fxm_After_Setup_Theme')) {
 /**
  * Kicking this off by calling 'get_instance()' method
  */
-Fxm_After_Setup_Theme::get_instance();
+FXM_After_Setup_Theme::get_instance();

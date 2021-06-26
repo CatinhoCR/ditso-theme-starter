@@ -12,6 +12,7 @@ module.exports = {
   },
   HOMEDIR: require('os').homedir(),
 }
+// @todo env variables generic and easy to set
 
 function unipath(base) {
   return function join(...args) {

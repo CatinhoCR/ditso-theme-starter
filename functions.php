@@ -13,12 +13,6 @@ if (!defined('ABSPATH')) {
   exit; // Exit if accessed directly.
 }
 
-// This theme requires WordPress 5.3 or later.
-if (version_compare($GLOBALS['wp_version'], '5.3', '<')) {
-  // todo
-  // require get_template_directory() . '/inc/back-compat.php';
-}
-
 /**
  * Theme's functions
  */
@@ -29,14 +23,8 @@ $includes = [
   'inc/theme-setup.php',
   // Theme customizations, hooks and extending
   'inc/core.php',
-  // Customizer Theme API
-  'inc/customizer.php',
   // Markup & Other Custom Functions
   'inc/methods.php',
-  // Classes
-  'inc/classes.php',
-  // Plugins Compatibility & Functions
-  'inc/compatibility.php',
 ];
 
 foreach ($includes as $file) {

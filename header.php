@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package freshXmind
+ * @package Ditso
  */
 
 if (!defined('ABSPATH')) {
@@ -33,7 +33,7 @@ if (!defined('ABSPATH')) {
 
   <?php fxm_header_before(); ?>
 
-	<?php get_template_part('partials/blocks/header', 'nav'); ?>
+	<?php get_template_part('partials/blocks/header'); ?>
 
   <?php fxm_header_after(); ?>
 

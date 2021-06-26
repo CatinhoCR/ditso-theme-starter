@@ -1,7 +1,7 @@
 # ditso-theme-starter
 
 [Source](https://github.com/CatinhoCR/ditso-theme-starter)
-[Based from](https://github.com/CatinhoCR/freshxmind-starter-theme)
+[Based from](https://github.com/CatinhoCR/Ditso-starter-theme)
 
 This should be a super minimal version of the based from above. For easier usage.
 

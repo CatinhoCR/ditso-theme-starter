@@ -3,7 +3,7 @@
 /**
  * @todo RENAME AND FIGURE A BETTER WAY TO INCLUDE THIS GENERIC
  * Register widget area.
- * @package FreshXMind
+ * @package Ditso
  * @author Cato
  * @since 1.0.0
  *

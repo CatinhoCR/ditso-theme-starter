@@ -4,7 +4,7 @@
   "description": "Fresh X Mind is a Wordpress starter theme. Modern and yet simple development workflow, made to quickly kickstart well organized & easy to maintain Wordpress themes. Webpack based setup supports Sass (scss) stylesheets, ECMAScript 2015+ compiling, Live reloading during development, image optimization, automatic built-in error logs, code linting and a lot more.",
   "main": "src/styles/app.js",
   "license": "ISC",
-  "repository": "https://github.com/CatinhoCR/freshxmind-starter-theme",
+  "repository": "(https://github.com/CatinhoCR/ditso-theme-starter",
   "babel": {
     "presets": [
       "@babel/preset-env"
